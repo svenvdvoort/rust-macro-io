@@ -1,0 +1,7 @@
+error: proc macro panicked
+ --> $DIR/number_literal.rs:4:5
+  |
+4 |     read_file!(42);
+  |     ^^^^^^^^^^^^^^^
+  |
+  = help: message: [macro_io::read_file] Failed to parse input: Error("expected string literal")

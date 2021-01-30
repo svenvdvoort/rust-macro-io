@@ -1,0 +1,7 @@
+error: proc macro panicked
+ --> $DIR/two_strings.rs:4:5
+  |
+4 |     read_file!("foo" "bar");
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = help: message: [macro_io::read_file] Failed to parse input: Error("unexpected token")
