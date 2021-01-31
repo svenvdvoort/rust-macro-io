@@ -17,7 +17,7 @@ use macro_io::read_file;
 
 let hello = read_file!("hello_world.txt");
 assert_eq!(hello, "Hello world!");
-let formatted = fmt!(read_file!("fmt.txt"), "foo", "bar");
+let formatted = format!(read_file!("fmt.txt"), "foo", "bar");
 assert_eq!(formatted, "foo: bar");
 ```
 
