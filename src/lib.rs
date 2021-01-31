@@ -1,3 +1,7 @@
+//! # macro_io
+//!
+//! Rust package that contains procedural macros to do IO during compile time.
+
 extern crate proc_macro;
 
 use proc_macro::TokenStream;
@@ -7,6 +11,8 @@ use syn;
 
 /// Read the contents of a file to a string and places the string
 /// as a literal in the Rust code.
+///
+/// Expects a string literal for filename as input.
 ///
 /// # Examples
 ///
