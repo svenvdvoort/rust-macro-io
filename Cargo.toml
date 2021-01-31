@@ -1,8 +1,11 @@
 [package]
 name = "macro_io"
 version = "0.1.0"
-authors = ["svenvdvoort <svenvdvoort@protonmail.com>"]
+authors = ["Sven van der Voort <svenvdvoort@protonmail.com>"]
 edition = "2018"
+description = "Rust package that contains procedural macros to do IO during compile time."
+homepage = "https://github.com/svenvdvoort/rust-macro-io"
+repository = "https://github.com/svenvdvoort/rust-macro-io"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
