@@ -16,11 +16,6 @@ fn spaces_in_filename() {
 }
 
 #[test]
-fn quotes_in_filename() {
-    assert_eq!(read_file!("tests/testfiles/\"quotes\""), "Hello quotes!");
-}
-
-#[test]
 fn compile_failures() {
     let t = trybuild::TestCases::new();
     t.compile_fail("tests/compile_failures/*.rs");
